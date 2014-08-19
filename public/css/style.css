@@ -1,6 +1,6 @@
 /*
-	Dark Blue:  #0064AB
-	Light Blue: #B3C5EE
+    Dark Blue:  #0064AB
+    Light Blue: #B3C5EE
 
 
 */
@@ -13,21 +13,25 @@ p {
 
 }
 .top {
-	background-color: #0064AB;
+    background-color: #0064AB;
+}
+
+.top .header {
+    margin-bottom: 20px;
 }
 
 .top .navbar-brand {
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
-	padding: 0 10px;
-	background-color: #0064AB;
-	color: #FFF;
-	text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 10px;
+    background-color: #0064AB;
+    color: #FFF;
+    text-decoration: none;
 }
 
 .top .container {
-	padding: 0;
+    padding: 0;
 }
 
 .navbar-nav li a {
@@ -38,11 +42,11 @@ p {
 }
 
 .navbar-toggle {
-	color: #B3C5EE;
-	font-size: 32px;
-	margin: 3px;
-	padding: 2px 5px;
-	line-height: 32px;
+    color: #B3C5EE;
+    font-size: 32px;
+    margin: 3px;
+    padding: 2px 5px;
+    line-height: 32px;
 }
 .navbar-toggle:hover {
     background-color: #007BAB;
@@ -57,9 +61,5 @@ p {
 }
 
 .text {
-	text-indent: 20px;
-}
-
-.navbar-nav.nav-justified > li{
-    float:none;
+    text-indent: 20px;
 }

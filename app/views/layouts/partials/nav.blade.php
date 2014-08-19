@@ -7,7 +7,7 @@
           <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
            <span class="glyphicon glyphicon-align-justify"></span>
           </button>
-          <nav class="navbar-collapse collapse" role="navigation">
+          <nav class="navbar-collapse collapse navbar-right" role="navigation">
             <ul class="nav navbar-nav">
               <li><a id="home" href="about"><span class="glyphicon glyphicon-user"> About</span></a></li>
               <li><a id="catalog" href="resume"><span class="glyphicon glyphicon-list-alt"> Resume</span></a></li>
