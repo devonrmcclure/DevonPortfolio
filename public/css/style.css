@@ -1,19 +1,37 @@
-/*
-    Dark Blue:  #0064AB
-    Light Blue: #B3C5EE
+body {
+    background: #FFF;
+    margin-bottom: 20px;
+}
 
+.row {
+    margin-top: 20px;
+}
 
-*/
+.contact-icons ul li {
+    float: left;
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+.contact-icons ul {
+    margin-left: -40px;
+}
 
 h1, h2, h3, h4 {
   font-weight: 300;
+  color: #000;
+}
+
+hr {
+    border-color: #000;
+    background-color: #000;
 }
 
 p {
 
 }
 .top {
-    background-color: #0064AB;
+    background-color: #000;
 }
 
 .top .header {
@@ -25,7 +43,7 @@ p {
     line-height: 50px;
     text-align: center;
     padding: 0 10px;
-    background-color: #0064AB;
+    background-color: #000;
     color: #FFF;
     text-decoration: none;
 }
@@ -35,21 +53,21 @@ p {
 }
 
 .navbar-nav li a {
-  color: #FFF; //Originally #D8DFEE
+  color: #FFF;
 }
 .navbar-nav li a:hover {
-  background-color: #007BAB;
+  background-color: #222;
 }
 
 .navbar-toggle {
-    color: #B3C5EE;
+    color: #FFF;
     font-size: 32px;
     margin: 3px;
     padding: 2px 5px;
     line-height: 32px;
 }
 .navbar-toggle:hover {
-    background-color: #007BAB;
+    background-color: #222;
 }
 .navbar-nav {
     margin: 0;
@@ -62,4 +80,5 @@ p {
 
 .text {
     text-indent: 20px;
+    margin-top: 5px;
 }
