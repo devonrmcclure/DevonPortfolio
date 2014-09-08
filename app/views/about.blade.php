@@ -10,7 +10,7 @@
 
     <div class="row">
         <div class="col-md-4">
-            <img src="http://placehold.it/200x200" class="img-responsive center-block" />
+            <img src="{{ URL::asset('images/me.png') }}" class="img-responsive center-block" />
             <p class="text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -47,7 +47,7 @@
                     </li>
 
                     <li>
-                        <a href="https://github.com/Phinocio">
+                        <a href="https://github.com/devonrmcclure">
                         <img src="{{ URL::asset('images/Github.png') }}" class="img-responsive" alt="Github"/>
                         </a>
                     </li>
