@@ -12,24 +12,14 @@
         <div class="col-md-4">
             <img src="{{ URL::asset('images/me.png') }}" class="img-responsive center-block" />
             <p class="text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                My name is Devon McClure, I am an aspiring Web Developer based out of White Rock, BC, Canada. I have experience with Laravel 4, Java, PHP, MySQL, and a bunch of other web technologies. I am always looking forward to learning new technologies and best practices to help better myself, and my work.
             </p>
         </div>
 
         <div class="col-md-8">
             <h1>Want to contact me?</h1>
             <p class="text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                The easiest way to contact me is by Email at <a href="mailto:devon.r.mcclure@gmail.com">devon.r.mcclure@gmail.com</a>. However I can also be contacted through Twitter, LinkedIn, and Github.
             </p>
 
             <div class="contact-icons">
