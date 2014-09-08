@@ -12,7 +12,7 @@
 <div class="col-md-8 resume">
 
     <div class="row">
-        <h2>Skills</h2>
+        <h2><em>Skills</em></h2>
         <div class="col-md-6">
             <h3>Programming</h3>
             <ul>
@@ -34,13 +34,13 @@
     </div>
 
     <div class="row">
-        <h2>Experience</h2>
+        <h2><em>Experience</em></h2>
         <div class="col-md-6">
             <h3>Sales Associate</h3>
             <p>November 2013 - Present</p>
             <p>Batteries Included/Kata King Services</p>
             <ul>
-                <li>Recreated store website</li>
+                <li>Recreate store website</li>
                 <li>Replace watch batteries</li>
                 <li>Small appliance repair and servicing</li>
                 <li>Shaver repair and servicing</li>
@@ -73,18 +73,19 @@
     </div>
 
     <div class="row">
-        <h2>Education</h2>
+        <h2><em>Education</em></h2>
         <div class="col-md-6">
             <h3>Kwantlen Polytechnic University</h3>
             <ul>
-                <li>Bachelors of IT</li>
+                <li>Bachelors of I.T. In Information Technology</li>
                 <li>September 2012 - September 2013</li>
             </ul>
         </div>
         <div class="col-md-6">
             <h3>Earl Marriott Secondary</h3>
             <ul>
-                <li>Graduating class of 2012</li>
+                <li>Dogwood Diploma</li>
+                <li>2007 - 2012</li>
             </ul>
         </div>
     </div>
