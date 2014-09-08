@@ -24,11 +24,10 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
-$env = $app->detectEnvironment(array(
-
-	'development' => array('devonmcclure.dev'),
-    'production'  => array('devonmcclure.com'),
-
+$env = $app->detectEnvironment(array
+(
+    'local' => array('Devon-PC', 'Devon'),
+    'prod' => array('devonmcclure')
 ));
 
 /*
