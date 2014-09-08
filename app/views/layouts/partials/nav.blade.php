@@ -9,9 +9,9 @@
           </button>
           <nav class="navbar-collapse collapse navbar-right" role="navigation">
             <ul class="nav navbar-nav">
-              <li><a id="home" href="about"><span class="glyphicon glyphicon-user"> About</span></a></li>
-              <li><a id="catalog" href="resume"><span class="glyphicon glyphicon-list-alt"> Resume</span></a></li>
-              <li><a id="servicing" href="portfolio"><span class="glyphicon glyphicon-folder-open"> Portfolio</span></a></li>
+              <li><a id="home" href="about"><span class="glyphicon glyphicon-user"></span> About</a></li>
+              <li><a id="catalog" href="resume"><span class="glyphicon glyphicon-list-alt"></span> Resume</a></li>
+              <li><a id="servicing" href="portfolio"><span class="glyphicon glyphicon-folder-open"></span> Portfolio</a></li>
             </ul>
           </nav>
         </div>
