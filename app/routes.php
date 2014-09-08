@@ -20,3 +20,13 @@ Route::get('about', function()
 {
    return View::make('about');
 });
+
+Route::get('resume', function()
+{
+    return View::make('resume');
+});
+
+Route::get('portfolio', function()
+{
+    return View::make('portfolio');
+});
