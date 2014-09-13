@@ -26,6 +26,7 @@
             <h3>Programming Technologies</h3>
             <ul>
                 <li>Laravel 4</li>
+                <li>Github</li>
                 <li>Composer</li>
                 <li>Bower</li>
                 <li>MVC Frameworks</li>
