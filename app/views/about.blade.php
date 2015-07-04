@@ -10,7 +10,7 @@
 
     <div class="row">
         <div class="col-md-4">
-            <img src="{{ URL::asset('images/me.png') }}" class="img-responsive center-block" />
+            <img src="{{ URL::asset('images/me.png')}}" width="220px" height="180px" class="img-responsive center-block" />
             <p class="text">
                 My name is Devon McClure, I am an aspiring Web Developer based out of White Rock, BC, Canada. I have experience with Laravel 4, Java, PHP, MySQL, and a bunch of other web technologies. I am always looking forward to learning new technologies and best practices to help better myself, and my work.
             </p>
