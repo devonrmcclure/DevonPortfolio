@@ -6,3 +6,7 @@ composer.lock
 .env.php
 .DS_Store
 Thumbs.db
+/public/bower_components
+.htaccess
+.bowerrc
+/node_modules
