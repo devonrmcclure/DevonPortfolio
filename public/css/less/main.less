@@ -2,9 +2,27 @@
 @import "material-app-bar";
 @import "material-card";
 @import "sidebar";
+@import "left-bar";
+@import "resume";
 
 body {
 	font-family: 'Roboto', sans-serif;
 	margin-top: 100px;
-	background: @white;
+	background: @blue-50;
+
+	a {
+		color: @blue;
+		text-decoration: none;
+	}
+
+	a:visited {
+		color: @blue;
+	}
+
+	a:hover {
+		color: @blue-A700;
+		border-bottom: 1px solid @blue-A700;
+	}
+
+	a:active {}
 }

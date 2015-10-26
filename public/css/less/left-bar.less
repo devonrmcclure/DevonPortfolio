@@ -1,0 +1,105 @@
+.left-bar{
+	width: 230px;
+	background: @blue;
+	float: left;
+	.border-radius(3px 0 0 3px);
+
+	.contact-info {
+		background: transparent;
+		width: 230px;
+
+		.me {
+			width: 230px;
+			height: 178px;
+			background-image: url("/images/me.png");
+			background-size: 230px 178px;
+			.border-radius(3px 0 0 0);
+		}
+
+		.contact {
+			color: @white;
+
+			.section {
+				padding: 10px;
+
+				.icon {
+					float: left;
+					display: inline-block;
+				}
+
+				.content {
+					margin-left: 30px;
+					font-size: 0.9em;
+
+					.heading {
+						font-size: 1.3em;
+						margin-bottom: 15px;
+						border-bottom: 1px solid @blue-A700;
+					}
+
+					a {
+						color: @white;
+						text-decoration: none;
+						display: block;
+						margin-bottom: 15px;
+					}
+
+					a:hover {
+						color: @blue-A700;
+					}
+				}
+			}
+		}
+	}
+
+	.skills {
+		width: 230px;
+		color: @white;
+
+		.section {
+			padding: 10px;
+
+			.icon {
+				float: left;
+				display: inline-block;
+			}
+
+			.content {
+				margin-left: 30px;
+				font-size: 0.9em;
+
+				.heading {
+					font-size: 1.3em;
+					margin-bottom: 10px;
+					border-bottom: 1px solid @blue-A700;
+				}
+
+				.skill {
+					margin-bottom: 15px;
+				}
+
+				.meter {
+					position: relative;
+					float: left;
+					width: 10px;
+					height: 20px;
+					background: @white;
+					padding: 0;
+					margin-right: 10px;
+					.border-radius(1px);
+
+
+					.fill {
+						background: @deep-purple-A700;
+						display: block;
+						width: inherit;
+						opacdity: 1.5;
+						position: absolute;
+						bottom: 0;
+						.border-radius(1px);
+					}
+				}
+			}
+		}
+	}
+}

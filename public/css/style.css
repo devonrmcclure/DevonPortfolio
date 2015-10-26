@@ -235,29 +235,6 @@ a img {
   -moz-box-shadow: 0 0 20px #000000;
   box-shadow: 0 0 20px #000000;
 }
-.material-card .contact-info {
-  background: transparent;
-  width: 230px;
-  min-height: inherit;
-}
-.material-card .contact-info .me {
-  width: 230px;
-  height: 178px;
-  background-image: url("/images/me.png");
-  background-size: 230px 178px;
-  -webkit-border-radius: 3px 0 0 0;
-  -moz-border-radius: 3px 0 0 0;
-  border-radius: 3px 0 0 0;
-}
-.material-card .contact-info .contact {
-  min-height: inherit;
-  color: #ffffff;
-  padding: 20px;
-  background: #2196f3;
-  -webkit-border-radius: 0 0 0 3px;
-  -moz-border-radius: 0 0 0 3px;
-  border-radius: 0 0 0 3px;
-}
 .sidebar {
   visibility: hidden;
   position: fixed;
@@ -310,8 +287,147 @@ a img {
   vertical-align: middle;
   margin: 10px;
 }
+.left-bar {
+  width: 230px;
+  background: #2196f3;
+  float: left;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+.left-bar .contact-info {
+  background: transparent;
+  width: 230px;
+}
+.left-bar .contact-info .me {
+  width: 230px;
+  height: 178px;
+  background-image: url("/images/me.png");
+  background-size: 230px 178px;
+  -webkit-border-radius: 3px 0 0 0;
+  -moz-border-radius: 3px 0 0 0;
+  border-radius: 3px 0 0 0;
+}
+.left-bar .contact-info .contact {
+  color: #ffffff;
+}
+.left-bar .contact-info .contact .section {
+  padding: 10px;
+}
+.left-bar .contact-info .contact .section .icon {
+  float: left;
+  display: inline-block;
+}
+.left-bar .contact-info .contact .section .content {
+  margin-left: 30px;
+  font-size: 0.9em;
+}
+.left-bar .contact-info .contact .section .content .heading {
+  font-size: 1.3em;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #2962ff;
+}
+.left-bar .contact-info .contact .section .content a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 15px;
+}
+.left-bar .contact-info .contact .section .content a:hover {
+  color: #2962ff;
+}
+.left-bar .skills {
+  width: 230px;
+  color: #ffffff;
+}
+.left-bar .skills .section {
+  padding: 10px;
+}
+.left-bar .skills .section .icon {
+  float: left;
+  display: inline-block;
+}
+.left-bar .skills .section .content {
+  margin-left: 30px;
+  font-size: 0.9em;
+}
+.left-bar .skills .section .content .heading {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #2962ff;
+}
+.left-bar .skills .section .content .skill {
+  margin-bottom: 15px;
+}
+.left-bar .skills .section .content .meter {
+  position: relative;
+  float: left;
+  width: 10px;
+  height: 20px;
+  background: #ffffff;
+  padding: 0;
+  margin-right: 10px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+}
+.left-bar .skills .section .content .meter .fill {
+  background: #6200ea;
+  display: block;
+  width: inherit;
+  opacdity: 1.5;
+  position: absolute;
+  bottom: 0;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+}
+.resume {
+  padding: 20px;
+  margin-left: 230px;
+  width: auto;
+}
+.resume .experience .heading {
+  font-size: 2em;
+  font-style: italic;
+  border-bottom: 1px solid #2196f3;
+}
+.resume .experience .job {
+  margin: 20px 0;
+  line-height: 30px;
+  border-bottom: 1px solid #2196f3;
+}
+.resume .experience .job .job-info .date {
+  margin-left: 20px;
+  font-size: 0.8em;
+}
+.resume .experience .job .job-info .job-name {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.resume .experience .job .job-info .job-title {
+  font-style: italic;
+  display: block;
+}
+.resume .experience .job .job-description p {
+  padding: 5px 0;
+}
+.resume .experience .job .job-description .duties {
+  margin-left: 30px;
+}
 body {
   font-family: 'Roboto', sans-serif;
   margin-top: 100px;
-  background: #ffffff;
+  background: #e3f2fd;
+}
+body a {
+  color: #2196f3;
+  text-decoration: none;
+}
+body a:visited {
+  color: #2196f3;
+}
+body a:hover {
+  color: #2962ff;
+  border-bottom: 1px solid #2962ff;
 }
