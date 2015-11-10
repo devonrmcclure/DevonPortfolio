@@ -1,7 +1,7 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
+	"name": "devon/portfolio",
+	"description": "Devon McClure's Portfolio.",
+	"keywords": ["portfolio", "devon"],
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.2.*"

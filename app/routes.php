@@ -30,3 +30,5 @@ Route::get('portfolio', function()
 {
     return View::make('portfolio');
 });
+
+Route::get('/wallpapers', 'WallpaperController@index');
