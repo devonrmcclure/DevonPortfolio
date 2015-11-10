@@ -1,19 +1,15 @@
-<!-- Site header and navigation -->
-<div class="navbar navbar-inverted top navbar-fixed-top top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="glyphicon glyphicon-align-justify"></span>
-      </button>
-      <a class="navbar-brand" href="/">Devon McClure</a>
-    </div>
-    <div class="navbar-collapse collapse navbar-right">
-      <ul class="nav navbar-nav">
-        <li><a id="about" href="about"><span class="glyphicon glyphicon-user"></span> About</a></li>
-        <li><a id="resume" href="resume"><span class="glyphicon glyphicon-list-alt"></span> Resume</a></li>
-        <li><a id="portfolio" href="portfolio"><span class="glyphicon glyphicon-folder-open"></span> Portfolio</a></li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div>
+<!-- Site App Bar -->
+
+<div class="material-app-bar">
+
+	<a href="#" class="material-sidebar-toggle"><i class="material-icons">menu</i></a>
+
+	<div class="title">
+		<h1>Devon McClure</h1>
+	</div>
+
+	<div class="navigation">
+		<a href="#" title="Resume"><i class="material-icons md-white">content_paste</i> Resume</a>
+		<a href="#" title="Porfolio"><i class="material-icons md-white">folder_shared</i> Portfolio</a>
+	</div>
 </div>
