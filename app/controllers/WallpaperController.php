@@ -7,10 +7,18 @@ class WallpaperController extends BaseController {
 		$dir = public_path() . "/images/AndroidRandomWallpaper";
 
 		$folders = scandir($dir);
-
 		//Choose a folder, starting from Array index 3.
 		//
-		$num = rand(3, count($folders)-1);
+		for($i = 0; $i < 50; $i++) {
+			$num = rand(3, count($folders)-1);
+		}
+
+		/* Make sure the README.md is not returned*/
+		while($folders[$num] == "README.md"){
+			for($i = 0; $i < 50; $i++) {
+				$num = rand(3, count($folders)-1);
+			}
+		}
 
 		//Get a random image from the folder.
 		$dir = public_path() . "/images/AndroidRandomWallpaper/" . $folders[$num];
