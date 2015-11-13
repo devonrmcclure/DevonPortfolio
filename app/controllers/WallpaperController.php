@@ -14,9 +14,9 @@ class WallpaperController extends BaseController {
 		}
 
 		/* Make sure the README.md is not returned*/
-		while($folders[$num] == "README.md"){
+		while($folders[$num] == "README.md" || $folders[$num] == "." || $folders[$num] == ".." || $folders[$num] == ".git"){
 			for($i = 0; $i < 50; $i++) {
-				$num = rand(3, count($folders)-1);
+				$num = rand(0, count($folders)-1);
 			}
 		}
 
@@ -26,6 +26,12 @@ class WallpaperController extends BaseController {
 		$pictures = scandir($dir);
 
 		$num2 = rand(2, count($pictures)-1);
+
+		while($pictures[$num2] == "." || $pictures[$num2] == ".."){
+			for($i = 0; $i < 50; $i++) {
+				$num2 = rand(0, count($pictures)-1);
+			}
+		}
 		//Create the image url.
 		$image = "/images/AndroidRandomWallpaper/" . $folders[$num] . "/" . $pictures[$num2];
 
