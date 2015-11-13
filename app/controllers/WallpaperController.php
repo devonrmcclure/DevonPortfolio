@@ -14,7 +14,7 @@ class WallpaperController extends BaseController {
 		}
 
 		/* Make sure the README.md is not returned*/
-		while($folders[$num] == "README.md" || $folders[$num] == "." || $folders[$num] == ".." || $folders[$num] == ".git"){
+		while($folders[$num] == "README.md" || $folders[$num] == "LICENSE.md" || $folders[$num] == "." || $folders[$num] == ".." || $folders[$num] == ".git"){
 			for($i = 0; $i < 50; $i++) {
 				$num = rand(0, count($folders)-1);
 			}
