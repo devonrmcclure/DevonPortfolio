@@ -183,17 +183,17 @@ a img {
   width: 100%;
   height: 128px;
   background: #1976d2;
-  -webkit-box-shadow: 0 0 20px #000000;
-  -moz-box-shadow: 0 0 20px #000000;
-  box-shadow: 0 0 20px #000000;
+  -webkit-box-shadow: 0 0 20px #000;
+  -moz-box-shadow: 0 0 20px #000;
+  box-shadow: 0 0 20px #000;
 }
 .material-app-bar .material-sidebar-toggle {
-  color: #ffffff;
+  color: #FFFFFF;
   display: inline-block;
   margin: 19px;
 }
 .material-app-bar .title {
-  color: #ffffff;
+  color: #FFFFFF;
   display: inline-block;
   position: absolute;
   top: 17px;
@@ -203,14 +203,14 @@ a img {
   font-weight: normal;
 }
 .material-app-bar .navigation {
-  color: #ffffff;
+  color: #FFFFFF;
   display: inline-block;
   float: right;
   margin: 19px;
 }
 .material-app-bar .navigation a {
   padding-left: 10px;
-  color: #ffffff;
+  color: #FFFFFF;
   text-decoration: none;
 }
 .material-app-bar .navigation a .material-icons {
@@ -221,7 +221,7 @@ a img {
   top: 70px;
   left: 50%;
   z-index: 20;
-  background: #ffffff;
+  background: #FFFFFF;
   width: 60%;
   display: block;
   min-height: 500px;
@@ -233,9 +233,9 @@ a img {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  -webkit-box-shadow: 0 0 20px #000000;
-  -moz-box-shadow: 0 0 20px #000000;
-  box-shadow: 0 0 20px #000000;
+  -webkit-box-shadow: 0 0 20px #000;
+  -moz-box-shadow: 0 0 20px #000;
+  box-shadow: 0 0 20px #000;
 }
 .sidebar {
   visibility: hidden;
@@ -245,12 +245,12 @@ a img {
   min-height: 100vh;
   max-height: auto;
   width: 230px;
-  background: #ffffff;
+  background: #FFFFFF;
   z-index: 10;
   margin-right: 10px;
-  -webkit-box-shadow: 3px 0 20px #000000;
-  -moz-box-shadow: 3px 0 20px #000000;
-  box-shadow: 3px 0 20px #000000;
+  -webkit-box-shadow: 3px 0 20px #000;
+  -moz-box-shadow: 3px 0 20px #000;
+  box-shadow: 3px 0 20px #000;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -264,7 +264,7 @@ a img {
   position: relative;
 }
 .sidebar .header .material-sidebar-toggle {
-  color: #ffffff;
+  color: #FFFFFF;
   display: inline-block;
   padding: 7px 7px 0 7px;
   margin: 19px;
@@ -273,7 +273,7 @@ a img {
   border-radius: 3px;
 }
 .sidebar .header .tagline {
-  color: #ffffff;
+  color: #FFFFFF;
   position: absolute;
   bottom: 0;
   padding-left: 26px;
@@ -312,7 +312,7 @@ a img {
   border-radius: 3px 0 0 0;
 }
 .left-bar .contact-info .contact {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .left-bar .contact-info .contact .section {
   padding: 10px;
@@ -331,7 +331,7 @@ a img {
   border-bottom: 1px solid #2962ff;
 }
 .left-bar .contact-info .contact .section .content a {
-  color: #ffffff;
+  color: #FFFFFF;
   text-decoration: none;
   display: block;
   margin-bottom: 15px;
@@ -341,7 +341,7 @@ a img {
 }
 .left-bar .skills {
   width: 230px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .left-bar .skills .section {
   padding: 10px;
@@ -367,7 +367,7 @@ a img {
   float: left;
   width: 10px;
   height: 20px;
-  background: #ffffff;
+  background: #FFFFFF;
   padding: 0;
   margin-right: 10px;
   -webkit-border-radius: 1px;

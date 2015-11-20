@@ -11,3 +11,5 @@ Thumbs.db
 .bowerrc
 /node_modules
 /public/images/AndroidRandomWallpaper
+/public/css/style.css
+/public/js/app.js
