@@ -4,6 +4,7 @@
 @import "sidebar";
 @import "left-bar";
 @import "resume";
+@import "portfolio";
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -19,7 +20,7 @@ body {
 		color: @blue;
 	}
 
-	a:hover {
+	a:hover.not(image) {
 		color: @blue-A700;
 		border-bottom: 1px solid @blue-A700;
 	}

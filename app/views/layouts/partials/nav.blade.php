@@ -9,7 +9,7 @@
 	</div>
 
 	<div class="navigation">
-		<a href="#" title="Resume"><i class="material-icons md-white">content_paste</i> Resume</a>
-		<a href="#" title="Porfolio"><i class="material-icons md-white">folder_shared</i> Portfolio</a>
+		<a href="/" title="Resume"><i class="material-icons md-white">content_paste</i> Resume</a>
+		<a href="/portfolio" title="Porfolio"><i class="material-icons md-white">folder_shared</i> Portfolio</a>
 	</div>
 </div>
